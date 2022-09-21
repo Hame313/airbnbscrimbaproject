@@ -5,9 +5,133 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+nav{
+  background: #FFFFFF;
+box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  padding: 1rem;
+}
+section{
+  padding: 20px;
+
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  
+}
+.hero__grid{
+  max-width: 100%;
+  align-self: center;
+}
+.hero__heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 16px;
+  
+}
+.hero__paragraph{
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+
+  /* or 18px */
+
+  color: #222222;
+}
+.card{
+  position: relative;
+}
+.openSpots{
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  background-color:white;
+  color:black;
+  border-radius: 2px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 16px;
+  padding: 5px;
+}
+.card__img{
+  width: 170px;
+  height: 200px;
+  border-radius: 9px;
+}
+.card__stat-rating{
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+.card__rating{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+.card__number,.card__country{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+
+  /* identical to box height, or 13px */
+
+  color: #918E9B;
+}
+.card__info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+
+  /* identical to box height, or 13px */
+
+  color: #222222;
+}
+.card__price{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+
+/* identical to box height, or 13px */
+
+color: #222222;
+}
+.card__bold{
+  font-weight: 600;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
 }

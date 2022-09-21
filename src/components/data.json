@@ -1,0 +1,39 @@
+
+{
+    "cards":[
+        {
+            "id":1,
+            "img": "image 12.png",
+            "rating":"5.0",
+            "number":6,
+            "country":"USA",
+            "info":"kathrine zeta jones",
+            "price":"From $134",
+            "online":"online",
+            "openSpots":0
+        },
+        {
+            "id":2,
+            "img": "image 12.png",
+            "rating":"4.0",
+            "number":6,
+            "country":"USA",
+            "info":"kathrine zeta jones",
+            "price":"From $134",
+            "online":"",
+            "openSpots":3
+        },
+        {
+            "id":3,
+            "img": "image 12.png",
+            "rating":"3.0",
+            "number":6,
+            "country":"USA",
+            "info":"kathrine zeta jones",
+            "price":"From $134",
+            "online":"online",
+            "openSpots":3
+        }
+      
+    ]
+}
